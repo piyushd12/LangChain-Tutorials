@@ -2,7 +2,7 @@ from langchain_huggingface import HuggingFaceEmbeddings
 from sklearn.metrics.pairwise import cosine_similarity
 import os
 
-os.environ['HF_HOME'] = '/home/piyush/Documents/model_cache/hf_cache'
+os.environ['HF_HOME'] = 'PATH TO THE CACHE DIRECTORY' #Example: Documents/model_cache/hf_cache
 
 
 model = HuggingFaceEmbeddings(
