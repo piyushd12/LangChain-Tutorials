@@ -30,3 +30,6 @@ scikit-learn
 
 
 langchain-community
+
+# Output validation
+pydantic
