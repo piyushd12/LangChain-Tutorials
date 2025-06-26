@@ -28,8 +28,21 @@ python-dotenv
 numpy
 scikit-learn
 
-
+# For community packages
 langchain-community
 
 # Output validation
 pydantic
+
+# For pdf loader
+pypdf
+
+# For progress bar display
+tqdm
+
+# For directory loader 
+unstructured # Deafult
+"unstructured[pdf]" # with quotes
+
+# For SeleniumURLLoader
+selenium
